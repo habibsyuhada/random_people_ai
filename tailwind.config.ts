@@ -16,4 +16,14 @@ export default {
     },
   },
   plugins: [daisyui],
+  daisyui: {
+    themes: ["light", "dark", "cupcake", "cyberpunk", "fantasy"],
+    darkTheme: "dark",
+    base: true,
+    styled: true,
+    utils: true,
+    rtl: false,
+    prefix: "",
+    logs: true,
+  },
 } satisfies Config;
